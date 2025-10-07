@@ -1,0 +1,60 @@
+Simple Medical Fraud Detector
+==============================
+
+ESSENTIAL FILES (For Submission):
+----------------------------------
+
+simple-fraud-detector/
+├── backend/                    ← All backend code
+│   ├── server.js              ← Main server (250 lines)
+│   ├── PriorityQueue.js       ← Min Heap (70 lines)
+│   ├── HashTable.js           ← Hash Table (45 lines)
+│   ├── BST.js                 ← Binary Search Tree (55 lines)
+│   ├── Graph.js               ← Graph BFS/DFS (70 lines)
+│   └── seed.js                ← Sample data (80 lines)
+│
+├── frontend/                   ← All frontend code
+│   └── index.html             ← Dashboard (350 lines)
+│
+├── package.json               ← Dependencies
+├── .env                       ← Configuration
+└── README.md                  ← Main documentation
+
+Total: 10 essential files (~920 lines)
+
+
+NON-ESSENTIAL (Reference Only):
+--------------------------------
+
+simple-fraud-detector/
+└── docs/                      ← Extra documentation
+    ├── QUICKSTART.md          ← Setup guide
+    ├── FEATURES_DEMO.md       ← Demo guide
+    └── PROJECT_STRUCTURE.md   ← This structure
+
+
+GENERATED (Don't Submit):
+--------------------------
+
+simple-fraud-detector/
+├── node_modules/              ← npm packages (auto-generated)
+└── package-lock.json          ← Dependency lock (auto-generated)
+
+
+SUBMIT ONLY:
+------------
+✓ backend/ folder (6 files)
+✓ frontend/ folder (1 file)
+✓ package.json
+✓ .env
+✓ README.md
+
+Optional: docs/ folder (for extra credit)
+
+
+QUICK START:
+------------
+npm install
+npm run seed
+npm start
+→ http://localhost:3002

@@ -1,0 +1,18 @@
+{
+  "name": "simple-fraud-detector",
+  "version": "1.0.0",
+  "description": "Simple Medical Fraud Detector - DSA + MongoDB + Business",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node backend/seed.js"
+  },
+  "keywords": ["fraud-detection", "mongodb", "dsa", "crm"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "cors": "^2.8.5"
+  }
+}
